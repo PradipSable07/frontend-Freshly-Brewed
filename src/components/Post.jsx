@@ -1,5 +1,5 @@
 import React from "react";
-export function Post({}) {
+export function Post() {
 	return (
 		<section className=' max-w-4xl mx-auto   bg-[#F8F8F8] border  border-[#717171] rounded-lg'>
 			<div className=' w-full py-5 px-5 sm:px-10 flex justify-between  items-center '>
@@ -142,7 +142,7 @@ export function Post({}) {
 					cursus se?
 				</p>
 			</div>
-			<div className='px-10 py-5 flex justify-between items-center'>
+			<div className='px-10 pb-5 flex justify-between items-center'>
 				<div className='flex items-center gap-2'>
 					<svg
 						width='24'
